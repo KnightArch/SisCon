@@ -1,6 +1,6 @@
 ﻿# Definições de escopo do projeto
 
-Até 100 usuários simultâneos, com 10.000 usuários cadastrados.
+Até 100 usuários simultâneos, com 10.000 clientes cadastrados.
 
 ## Nome do projeto
 
@@ -52,6 +52,8 @@ Software de gerenciamento para fazendas de impressão 3D.
 
 3. Integração com web app
 	- Spoolman
-	- Kina Web App
+	- *Kina Web App*
+
+		\* Kina Web App é um nome provisório.
 
 4. Integração com API
