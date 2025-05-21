@@ -140,11 +140,13 @@
             // 
             resources.ApplyResources(textBoxCustoTotal, "textBoxCustoTotal");
             textBoxCustoTotal.Name = "textBoxCustoTotal";
+            textBoxCustoTotal.TextChanged += textBoxCustoTotal_TextChanged;
             // 
             // textBoxMargemRiscoGTD
             // 
             resources.ApplyResources(textBoxMargemRiscoGTD, "textBoxMargemRiscoGTD");
             textBoxMargemRiscoGTD.Name = "textBoxMargemRiscoGTD";
+            textBoxMargemRiscoGTD.TextChanged += textBoxMargemRiscoGTD_TextChanged;
             // 
             // textBoxValorEnergia
             // 
@@ -155,12 +157,13 @@
             // 
             resources.ApplyResources(textBoxValorConta, "textBoxValorConta");
             textBoxValorConta.Name = "textBoxValorConta";
+            textBoxValorConta.TextChanged += textBoxValorConta_TextChanged;
             // 
             // textBoxConsumo
             // 
             resources.ApplyResources(textBoxConsumo, "textBoxConsumo");
             textBoxConsumo.Name = "textBoxConsumo";
-            textBoxConsumo.TextChanged += textBox1_TextChanged_1;
+            textBoxConsumo.TextChanged += textBoxConsumo_TextChanged;
             // 
             // label7
             // 
